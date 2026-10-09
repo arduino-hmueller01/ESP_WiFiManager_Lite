@@ -860,6 +860,8 @@ class ESP_WiFiManager_Lite
 
     //////////////////////////////////////////
 
+    uint32_t curMillis = 0;
+
     void run()
     {
       static int retryTimes = 0;
@@ -871,8 +873,6 @@ class ESP_WiFiManager_Lite
       // Check twice to be sure wifi disconnected is real
       static unsigned long checkstatus_timeout = 0;
 #define WIFI_STATUS_CHECK_INTERVAL    5000L
-
-      static uint32_t curMillis;
 
       curMillis = millis();
 
