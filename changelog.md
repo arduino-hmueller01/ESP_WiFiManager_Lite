@@ -1,4 +1,4 @@
-## ESP_WiFiManager_Lite (Light Weight Credentials / WiFiManager for ESP32/ESP8266)  <!-- omit from toc --> 
+## ESP_WiFiManager_Lite (Light Weight Credentials / WiFiManager for ESP32/ESP8266)  <!-- omit from toc -->
 
 [![arduino-library-badge](https://www.ardu-badge.com/badge/ESP_WiFiManager_Lite.svg?)](https://www.ardu-badge.com/ESP_WiFiManager_Lite)
 [![GitHub release](https://img.shields.io/github/release/khoih-prog/ESP_WiFiManager_Lite.svg)](https://github.com/khoih-prog/ESP_WiFiManager_Lite/releases)
@@ -12,9 +12,10 @@
 ---
 ---
 
-## Table of Contents  <!-- omit from toc --> 
+## Table of Contents  <!-- omit from toc -->
 
 - [Changelog](#changelog)
+  - [Release v1.11.2 (WIP)](#release-v1112-wip)
   - [Release v1.11.1 (WIP)](#release-v1111-wip)
   - [Release v1.11.0 (WIP)](#release-v1110-wip)
   - [Release v1.10.5](#release-v1105)
@@ -41,6 +42,10 @@
 ---
 
 ## Changelog
+
+### Release v1.11.2 (WIP)
+
+1. [make curMillis global public to use it outside](https://github.com/hmueller01/ESP_WiFiManager_Lite/pull/12)
 
 ### Release v1.11.1 (WIP)
 
@@ -109,14 +114,14 @@
 
 ### Release v1.7.0
 
-1. Fix ESP8266 bug not easy to connect to Config Portal for ESP8266 core v3.0.0+ 
+1. Fix ESP8266 bug not easy to connect to Config Portal for ESP8266 core v3.0.0+
 2. Fix the blocking issue in loop(). Check [retries block the main loop #18](https://github.com/khoih-prog/WiFiManager_NINA_Lite/issues/18)
 3. Configurable `WIFI_RECON_INTERVAL`. Check [retries block the main loop #18](https://github.com/khoih-prog/WiFiManager_NINA_Lite/issues/18#issuecomment-1006197561)
 4. Clean up
 
 ### Release v1.6.0
 
-1. Auto detect ESP32 core and use either built-in LittleFS or [LITTLEFS](https://github.com/lorol/LITTLEFS) library. 
+1. Auto detect ESP32 core and use either built-in LittleFS or [LITTLEFS](https://github.com/lorol/LITTLEFS) library.
 2. Fix bug returning IP `255.255.255.255` in core v2.0.0+ when using `hostname`
 
 
@@ -146,7 +151,7 @@
 ### Release v1.2.0
 
 1. Configurable **Customs HTML Headers**, including Customs Style, Customs Head Elements, CORS Header.
-2. Fix Config Portal Bug. 
+2. Fix Config Portal Bug.
 3. Update examples
 
 ### Release v1.1.0
