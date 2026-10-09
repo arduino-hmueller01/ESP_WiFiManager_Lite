@@ -30,6 +30,7 @@
                                    added WIFI_CONNECT_TIMEOUT to overwrite the default WiFi connect timeout,
                                    show WiFi credentials password at DEBUG level only
   1.11.1  H Mueller    28/12/2024  added config to hide WiFi password, hide dynamic parameter values (using * or _ at start of name)
+  1.11.2  H Mueller    09/10/2026  make curMillis global public
  *****************************************************************************************************************************/
 
 #pragma once
@@ -62,13 +63,13 @@
 ///////////////////////////////////////////
 
 #ifndef ESP_WIFI_MANAGER_LITE_VERSION
-  #define ESP_WIFI_MANAGER_LITE_VERSION             "ESP_WiFiManager_Lite v1.11.1 (WIP)"
+  #define ESP_WIFI_MANAGER_LITE_VERSION             "ESP_WiFiManager_Lite v1.11.2 (WIP)"
 
   #define ESP_WIFI_MANAGER_LITE_VERSION_MAJOR       1
   #define ESP_WIFI_MANAGER_LITE_VERSION_MINOR       11
-  #define ESP_WIFI_MANAGER_LITE_VERSION_PATCH       1
+  #define ESP_WIFI_MANAGER_LITE_VERSION_PATCH       2
 
-  #define ESP_WIFI_MANAGER_LITE_VERSION_INT         1011001
+  #define ESP_WIFI_MANAGER_LITE_VERSION_INT         1011002
 #endif
 
 ///////////////////////////////////////////
